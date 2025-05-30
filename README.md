@@ -6,3 +6,6 @@ I want to make it beautiful and hope this will
 help her sale more.
 
 30/05 - HTML & CSS Boilerplate, Style (Home Page)
+
+A project by Mohamad Tarik Suleman  
+© 2025 Iluminar - All rights reserved.
