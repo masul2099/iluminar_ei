@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Besley:ital,wght@0,400..900;1,400..900&family=Butterfly+Kids&family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: rgb(253,163,7);
+    --secondary-color: rgb(221, 221, 221);    
+    --background-color: black;
+    --text-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Besley','sans-serif';
+}
+
+section {
+    height: auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+h1, p {
+    margin: 0;
+}
+
+/* Home Start */
+
+section .home {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav Start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.current {
+    color: var(--primary-color);   
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+    transition: 0.4s ease-in-out;
+}
+
+/* Nav End */
+
+/* Hero Start */
+
+.hero {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 2rem;
+}
+
+.hero .text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero .text .title {
+    font-size: 2rem;
+}
+
+.hero .text .title span {
+    color: var(--primary-color);
+}
+
+.hero .text .paragraph {
+    color: var(--secondary-color);
+}
+
+.button {
+    display: inline-block;
+    border: 2px var(--primary-color) solid;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--primary-color);
+    padding: 6px;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transition: .4s ease;
+}
+
+.hero .image {
+    margin-top: 42px;
+}
+
+.hero .image img {
+    border-radius: 16px;
+    width: 420px;
+    filter: drop-shadow(0 0 0.65rem var(--primary-color));
+}
+
+/* Hero End */
+
+/* Card Start */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 2rem;
+    
+
+}
+
+.card {
+    flex: auto;
+    border-radius: 16px;
+}
+
+.cards .card .top {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cards .card .top p {
+    font-size: 1.7rem;
+}
+
+.cards .card .top svg {
+    width: 50px;
+}
+
+.cards .card .bottom {
+    text-align: center;
+}
+
+/* Card End */
+
+/* Home End */
