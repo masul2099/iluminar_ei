@@ -37,6 +37,11 @@ h1, p {
     margin: 0;
 }
 
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
 /* Home Start */
 
 section .home {
@@ -116,12 +121,11 @@ nav ul li a:hover {
 }
 
 .hero .image {
-    margin-top: 42px;
+    margin-top: 32px;
 }
 
 .hero .image img {
     border-radius: 16px;
-    width: 420px;
     filter: drop-shadow(0 0 0.65rem var(--primary-color));
 }
 
@@ -134,8 +138,6 @@ nav ul li a:hover {
     flex-wrap: wrap;
     gap: 32px;
     padding: 2rem;
-    
-
 }
 
 .card {
